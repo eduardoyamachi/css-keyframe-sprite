@@ -1,0 +1,11 @@
+#anima-div {
+    background: url("./../imagens/garoto.png");
+    width: 200px;
+    height: 308px;
+    animation: anima-sprite 1s steps(4) infinite;   
+}
+
+@keyframes anima-sprite {
+    from { background-position: 0px; }
+    to { background-position: -800px;}
+}
